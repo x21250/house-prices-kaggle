@@ -28,7 +28,7 @@ from sklearn.svm import SVR
 warnings.filterwarnings("ignore")
 
 DATA = Path.home() / "Downloads/house-prices-advanced-regression-techniques"
-OUT = Path(__file__).resolve().parent
+OUT = Path(__file__).resolve().parent.parent  # repo root
 SEED = 42
 
 
