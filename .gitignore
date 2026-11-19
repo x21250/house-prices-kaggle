@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# competition data is not redistributed here
+train.csv
+test.csv
+sample_submission.csv
+data_description.txt
+
+# generated artifacts
+*.npz
+submission*.csv
+sub_*.csv

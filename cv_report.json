@@ -1,0 +1,25 @@
+{
+  "n_train": 1458,
+  "n_features": 248,
+  "single_model_cv": {
+    "lasso": 0.10984,
+    "enet": 0.11091,
+    "ridge": 0.11153,
+    "svr": 0.1113,
+    "lgbm": 0.11435,
+    "xgb": 0.11123,
+    "cat": 0.11327
+  },
+  "stack_cv": 0.105,
+  "geometric_blend_cv": 0.10663,
+  "chosen": "stack",
+  "weights": {
+    "lasso": 0.165,
+    "enet": 0.181,
+    "ridge": 0.0,
+    "svr": 0.272,
+    "lgbm": 0.126,
+    "xgb": 0.237,
+    "cat": 0.04
+  }
+}
